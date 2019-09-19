@@ -1,0 +1,28 @@
+public class Array3 {
+
+ 
+        int nis[][] = {{278910}, {456789}, {123455}};
+        String nama[][] = {{"Alif"}, {"Fia"}, {"Rosa"}};
+        
+
+    public void tampil(String n) {
+        System.out.println("Identitas Siswa Angkatan 28");
+    }
+
+    public void namais(int n) {
+        for (int i = 0; i < 1; i++) {
+            for (int j = 0; j < 1; j++) {
+                System.out.println(nama[1][j] + ":" + nis[1][j]);
+
+            }
+
+        }
+
+    }
+
+    public static void main(String[] args) {
+        Array3 siswa = new Array3();
+        siswa.tampil(null);
+        siswa.namais(0);
+    }
+}
